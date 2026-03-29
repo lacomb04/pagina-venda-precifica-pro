@@ -5,9 +5,7 @@
 /* ---- TABLET E ABAIXO (768px) ---- */
 @media (max-width: 768px) {
   /* Navigation */
-  .nav-links {
-    display: none;
-  }
+  .nav-links { display: none; }
 
   .btn-nav {
     margin-left: auto;
@@ -19,47 +17,25 @@
   .navbar {
     overflow: hidden;
     max-width: 100vw;
-  }
-
-  .navbar {
     padding: 1rem 1rem;
   }
 
   /* Hero */
-  .hero {
-    padding: 6rem 1rem 3rem;
-  }
+  .hero { padding: 6rem 1rem 3rem; }
 
   /* Ticker */
-      font-size: clamp(1.8rem, 5.2vw, 2.4rem);
-      line-height: 1.05;
-      text-align: center;
-      word-break: break-word;
-    --ticker-speed: 12s;
-  }
+  .ticker-wrap { --ticker-speed: 12s; }
+  .ticker { gap: 1.4rem; }
+  .ticker-item { font-size: 0.7rem; }
 
-  .ticker {
-    gap: 1.4rem;
-  }
-
-  .ticker-item {
-    font-size: 0.7rem;
-  }
-
-  .hero-stats {
-    gap: 2rem;
-  }
-
-  .stat-num {
-    font-size: 1.75rem;
-  }
+  .hero-stats { gap: 2rem; }
+  .stat-num { font-size: 1.75rem; }
 
   .hero-cta {
     flex-direction: column;
     width: 100%;
     padding: 0 1rem;
   }
-
   .hero-cta .btn-primary,
   .hero-cta .btn-ghost {
     width: 100%;
@@ -67,37 +43,16 @@
   }
 
   /* Problem Section */
-  .problem-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-
-  .problem-section {
-    padding: 3rem 1rem;
-  }
+  .problem-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .problem-section { padding: 3rem 1rem; }
 
   /* Features */
-  .features-grid {
-    grid-template-columns: 1fr;
-  }
+  .features-grid { grid-template-columns: 1fr; }
 
   /* Demo/Tour Section */
-  .demo-section {
-    padding: 4rem 1rem;
-  }
+  .demo-section { padding: 4rem 1rem; }
+  .demo-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
 
-  .demo-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .tour-wrap {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  /* Mostra o mockup primeiro e explicação depois no mobile */
   .tour-wrap {
     display: flex;
     flex-direction: column;
@@ -118,113 +73,48 @@
     overflow: hidden;
   }
 
-  .mock-body {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .mock-panel {
-    padding: 1rem 1.1rem;
-  }
-
-  .annot-area {
-    order: 2;
-    position: static;
-    width: 100%;
-  }
+  .mock-body { grid-template-columns: 1fr; gap: 1rem; }
+  .mock-panel { padding: 1rem 1.1rem; }
+  .annot-area { order: 2; position: static; width: 100%; }
 
   /* Animação de entrada para os cards */
-  .annot-card {
-    padding: 1.5rem;
-    gap: 1rem;
-    animation: fadeSlideUp 0.4s ease-out both;
-  }
-
-  .annot-card.active {
-    display: flex;
-  }
+  .annot-card { padding: 1.5rem; gap: 1rem; animation: fadeSlideUp 0.4s ease-out both; }
+  .annot-card.active { display: flex; }
 
   @keyframes fadeSlideUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 
-  .annot-title {
-    font-size: 1.25rem;
-  }
-
-  .annot-text {
-    font-size: 0.9rem;
-    line-height: 1.7;
-  }
-
-  .annot-tip {
-    font-size: 0.8rem;
-    padding: 0.75rem 1rem;
-  }
-
-  .annot-num {
-    font-size: 0.7rem;
-    padding: 0.3rem 0.6rem;
-    background: rgba(59, 130, 246, 0.1);
-    border-radius: 4px;
-    display: inline-block;
-    width: fit-content;
-  }
-
-  .annot-nav {
-    margin-top: 0.5rem;
-  }
-
-  .annot-btn {
-    flex: 1;
-    text-align: center;
-    padding: 0.75rem 1rem;
-  }
+  .annot-title { font-size: 1.25rem; }
+  .annot-text { font-size: 0.9rem; line-height: 1.7; }
+  .annot-tip { font-size: 0.8rem; padding: 0.75rem 1rem; }
+  .annot-num { font-size: 0.7rem; padding: 0.3rem 0.6rem; background: rgba(59, 130, 246, 0.1); border-radius: 4px; display: inline-block; width: fit-content; }
+  .annot-nav { margin-top: 0.5rem; }
+  .annot-btn { flex: 1; text-align: center; padding: 0.75rem 1rem; }
 
   /* Marketplaces (regras de negócio) */
-  .mp-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
+  .mp-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
 
-  .price-card {
-    padding: 2rem 1.5rem;
-  }
-
-  .price-val {
-    font-size: 4rem;
-  }
+  /* Pricing */
+  .price-card { padding: 2rem 1.5rem; }
+  .price-val { font-size: 4rem; }
 
   /* FAQ */
-  .faq-q {
-    padding: 1rem 1.25rem;
-    font-size: 0.9rem;
-  }
-
-  .faq-a {
-    padding: 0 1.25rem 1rem;
-    font-size: 0.85rem;
-  }
+  .faq-q { padding: 1rem 1.25rem; font-size: 0.9rem; }
+  .faq-a { padding: 0 1.25rem 1rem; font-size: 0.85rem; }
 
   /* CTA Final */
-  .cta-final {
-    padding: 5rem 1rem;
-  }
+  .cta-final { padding: 5rem 1rem; }
 
   /* Sections */
-  .section {
-    padding: 4rem 1rem;
-  }
+  .section { padding: 4rem 1rem; }
+  .section-title { font-size: clamp(1.8rem, 5.2vw, 2.4rem); line-height: 1.05; text-align: center; word-break: break-word; }
 
-  .section-title {
+  /* Logos (Integrado com os maiores marketplaces) */
+  .logos-section { padding: 3rem 1rem; }
+  .logos-grid {
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: stretch;
@@ -236,238 +126,65 @@
     -webkit-overflow-scrolling: touch;
     width: 100%;
   }
-
-  .logos-grid {
-    min-width: 220px;
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    margin-right: 0.25rem;
-    padding: 0.25rem 0.1rem 0.25rem 0.1rem;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .logo-card {
-    min-width: 240px;
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-  }
-
-  .logo-card {
-    padding: 0.6rem 1rem;
-  }
+  .logo-card { min-width: 220px; flex: 0 0 auto; scroll-snap-align: start; }
 }
 
 /* ---- MOBILE PEQUENO (480px) ---- */
 @media (max-width: 480px) {
-  /* Hero */
-  .hero-title {
-    font-size: clamp(3rem, 15vw, 4rem);
-  }
-
-  .badge {
-    font-size: 0.65rem;
-    padding: 0.3rem 0.8rem;
-  }
-
-  .hero-stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-  }
-
-  /* Mock Body - Single Column */
-  .mock-body {
-    grid-template-columns: 1fr;
-  }
-
-  .mock-col {
-    gap: 0.75rem;
-  }
-
-  /* Result Numbers - Single Row on Very Small */
-  .result-numbers {
-    grid-template-columns: 1fr;
-    gap: 0.75rem;
-  }
-
-  .rnum {
-    padding: 0.75rem;
-  }
-
-  /* Tour Steps */
-  .tour-steps {
-    gap: 0.4rem;
-  }
-
-  .tour-step {
-    padding: 0.4rem 0.7rem;
-    font-size: 0.7rem;
-  }
-
-  .ts-num {
-    width: 18px;
-    height: 18px;
-    font-size: 0.6rem;
-  }
-
-  /* Buttons */
-  .btn-primary {
-    padding: 0.8rem 1.5rem;
-    font-size: 0.9rem;
-  }
-
-  .btn-ghost {
-    padding: 0.8rem 1.5rem;
-    font-size: 0.9rem;
-  }
-
-  /* Cards */
-  .feat-card {
-    padding: 1.5rem;
-  }
-
-  .feat-icon {
-    font-size: 1.75rem;
-  }
-
-  .feat-title {
-    font-size: 1.1rem;
-  }
-
-  .feat-desc {
-    font-size: 0.85rem;
-  }
-
-  /* MP Cards */
-  .mp-card {
-    padding: 1.5rem;
-  }
-
-  .mp-logo {
-    width: 38px;
-    height: 38px;
-  }
-
-  .mp-name {
-    font-size: 1rem;
-  }
-
-  .mp-rule {
-    font-size: 0.78rem;
-  }
-
-  /* Pricing */
-  .price-val {
-    font-size: 3.5rem;
-  }
-
-  .price-currency {
-    font-size: 1.5rem;
-  }
-
-  .price-cents {
-    font-size: 1.5rem;
-  }
-
-  .pf {
-    font-size: 0.8rem;
-  }
-
-  .price-cta.solid {
-    font-size: 0.95rem;
-    padding: 1rem;
-  }
-
-  /* Guarantee */
-  .guarantee {
-    flex-direction: column;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.8rem;
-  }
-
-  /* CTA Final */
-  .cta-final h2 {
-    font-size: clamp(2rem, 10vw, 3rem);
-  }
-
-  .cta-final p {
-    font-size: 0.95rem;
-  }
-
-  /* Footer */
-  footer {
-    padding: 2rem 1rem;
-  }
-
-  .footer-logo {
-    font-size: 1rem;
-  }
-
-  footer p {
-    font-size: 0.75rem;
-  }
+  .hero-title { font-size: clamp(3rem, 15vw, 4rem); }
+  .badge { font-size: 0.65rem; padding: 0.3rem 0.8rem; }
+  .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .mock-body { grid-template-columns: 1fr; }
+  .mock-col { gap: 0.75rem; }
+  .result-numbers { grid-template-columns: 1fr; gap: 0.75rem; }
+  .rnum { padding: 0.75rem; }
+  .tour-steps { gap: 0.4rem; }
+  .tour-step { padding: 0.4rem 0.7rem; font-size: 0.7rem; }
+  .ts-num { width: 18px; height: 18px; font-size: 0.6rem; }
+  .btn-primary { padding: 0.8rem 1.5rem; font-size: 0.9rem; }
+  .btn-ghost { padding: 0.8rem 1.5rem; font-size: 0.9rem; }
+  .feat-card { padding: 1.5rem; }
+  .feat-icon { font-size: 1.75rem; }
+  .feat-title { font-size: 1.1rem; }
+  .feat-desc { font-size: 0.85rem; }
+  .mp-card { padding: 1.5rem; }
+  .mp-logo { width: 38px; height: 38px; }
+  .mp-name { font-size: 1rem; }
+  .mp-rule { font-size: 0.78rem; }
+  .price-val { font-size: 3.5rem; }
+  .price-currency { font-size: 1.5rem; }
+  .price-cents { font-size: 1.5rem; }
+  .pf { font-size: 0.8rem; }
+  .price-cta.solid { font-size: 0.95rem; padding: 1rem; }
+  .guarantee { flex-direction: column; text-align: center; padding: 1rem; font-size: 0.8rem; }
+  .cta-final h2 { font-size: clamp(2rem, 10vw, 3rem); }
+  .cta-final p { font-size: 0.95rem; }
+  footer { padding: 2rem 1rem; }
+  .footer-logo { font-size: 1rem; }
+  footer p { font-size: 0.75rem; }
 }
 
 /* ---- DESKTOP GRANDE (1200px+) ---- */
 @media (min-width: 1200px) {
-  .section {
-    padding: 8rem 2rem;
-  }
+  .section { padding: 8rem 2rem; }
+  .hero { padding: 10rem 2rem 6rem; }
+  .demo-section { padding: 8rem 2rem; }
+  .pricing-section { padding: 8rem 2rem; }
+  .cta-final { padding: 10rem 2rem; }
+}
 
-  .hero {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    gap: 0.75rem;
-    overflow-x: auto;
-    overflow-y: hidden;
-    width: 100%;
-    padding: 0.25rem 0 0.75rem 0;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  .cta-final {
-    padding: 10rem 2rem;
-  }
-    min-width: 220px;
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-  .reveal {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-
-  .ticker {
-    animation: none;
-  }
-
-  .btn-primary {
-    animation: none;
-  }
-
-  * {
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
-  }
+/* ---- PREFERÊNCIA DE MOVIMENTO REDUZIDO ---- */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .ticker { animation: none; }
+  .btn-primary { animation: none; }
+  * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
 
 /* ---- MODO ESCURO FORÇADO (High Contrast) ---- */
 @media (prefers-contrast: high) {
-  :root {
-    --border: rgba(255, 255, 255, 0.3);
-  }
-
-  .navbar {
-    background: var(--bg);
-  }
-
-  .feat-card,
-  .mp-card,
-  .test-card,
-  .price-card {
-    border-width: 2px;
-  }
+  :root { --border: rgba(255, 255, 255, 0.3); }
+  .navbar { background: var(--bg); }
+  .feat-card, .mp-card, .test-card, .price-card { border-width: 2px; }
 }
+  }
