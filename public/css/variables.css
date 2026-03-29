@@ -1,0 +1,65 @@
+/* =============================================
+   VARIABLES.CSS - Design Tokens e Variáveis CSS
+   ============================================= */
+
+:root {
+  /* Cores de fundo */
+  --bg: #030b18;
+  --bg2: #061020;
+  --surface: #0d1f35;
+  --surface2: #0a1828;
+  
+  /* Bordas */
+  --border: rgba(59, 130, 246, 0.15);
+  
+  /* Cores principais */
+  --blue: #3b82f6;
+  --blue-bright: #60a5fa;
+  --cyan: #06b6d4;
+  --green: #10b981;
+  --red: #ef4444;
+  --orange: #f97316;
+  --yellow: #eab308;
+  
+  /* Texto */
+  --text: #e2e8f0;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+  
+  /* Cores dos Marketplaces */
+  --shopee: #ee4d2d;
+  --ml: #ffe600;
+  --tiktok: #ff0050;
+  --amazon: #ff9900;
+  
+  /* Tipografia */
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  
+  /* Espaçamentos */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 999px;
+  
+  /* Transições */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.3s ease;
+  
+  /* Shadows */
+  --shadow-blue: 0 0 30px rgba(59, 130, 246, 0.35);
+  --shadow-blue-strong: 0 0 40px rgba(59, 130, 246, 0.5);
+}
