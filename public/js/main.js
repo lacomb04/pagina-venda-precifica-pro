@@ -126,17 +126,6 @@ function initSmoothScroll() {
       }
     });
   });
-
-  // Em telas menores, garante que o mock + explicação fiquem visíveis sem rolar manualmente
-  if (window.innerWidth <= 1024) {
-    const tourWrap = document.querySelector(".tour-wrap");
-    if (tourWrap) {
-      const navHeight = document.querySelector(".navbar")?.offsetHeight || 0;
-      const top =
-        tourWrap.getBoundingClientRect().top + window.scrollY - navHeight - 12;
-      window.scrollTo({ top, behavior: "smooth" });
-    }
-  }
 }
 
 // ---- NAVBAR SCROLL EFFECT ----
