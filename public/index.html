@@ -1,659 +1,923 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Precificação PRO 2026 — Calcule. Venda. Lucre.</title>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Barlow+Condensed:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/sections.css">
-  <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precificação PRO 2026 — Calcule. Venda. Lucre.</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Barlow+Condensed:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-logo">PRECIFICAÇÃO<span>PRO</span></div>
+      <div class="nav-links">
+        <a href="#funciona">Como funciona</a>
+        <a href="#marketplaces">Marketplaces</a>
+        <a href="#precos">Preços</a>
+      </div>
+      <a href="#precos" class="btn-nav">Começar agora →</a>
+    </nav>
 
-<!-- NAV -->
-<nav class="navbar">
-  <div class="nav-logo">PRECIFICAÇÃO<span>PRO</span></div>
-  <div class="nav-links">
-    <a href="#funciona">Como funciona</a>
-    <a href="#marketplaces">Marketplaces</a>
-    <a href="#precos">Preços</a>
-  </div>
-  <a href="#precos" class="btn-nav">Começar agora →</a>
-</nav>
-
-<!-- TICKER -->
-<div class="ticker-wrap">
-  <div class="ticker">
-    <span class="ticker-item">◆ SHOPEE</span>
-    <span class="ticker-item">◆ MERCADO LIVRE</span>
-    <span class="ticker-item">◆ TIKTOK SHOP</span>
-    <span class="ticker-item">◆ AMAZON</span>
-    <span class="ticker-item">◆ MARGEM GARANTIDA</span>
-    <span class="ticker-item">◆ SEM SURPRESAS</span>
-    <span class="ticker-item">◆ SHOPEE</span>
-    <span class="ticker-item">◆ MERCADO LIVRE</span>
-    <span class="ticker-item">◆ TIKTOK SHOP</span>
-    <span class="ticker-item">◆ AMAZON</span>
-    <span class="ticker-item">◆ MARGEM GARANTIDA</span>
-    <span class="ticker-item">◆ SEM SURPRESAS</span>
-  </div>
-</div>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-grid"></div>
-  <div class="hero-glow"></div>
-
-  <div class="badge">Calculadora de Precificação 2026</div>
-
-  <h1 class="hero-title">
-    <span class="white">PRECIFICAÇÃO</span><br>
-    <span class="blue">PRO</span>
-  </h1>
-
-  <p class="hero-sub">
-    Calcule o preço ideal com as <strong>taxas reais</strong> de cada marketplace.<br>
-    Margem garantida, sem surpresas, sem achismos.
-  </p>
-
-  <div class="hero-cta">
-    <a href="#precos" class="btn-primary">🚀 Quero acesso por R$ 27,90</a>
-    <a href="#funciona" class="btn-ghost">▷ Ver como funciona</a>
-  </div>
-
-  <div class="hero-stats">
-    <div class="stat">
-      <div class="stat-num">4<span>+</span></div>
-      <div class="stat-label">Marketplaces integrados</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">100<span>%</span></div>
-      <div class="stat-label">Taxas reais e atualizadas</div>
-    </div>
-
-    <div class="stat">
-      <div class="stat-num">3<span>s</span></div>
-      <div class="stat-label">Cálculo instantâneo</div>
-    </div>
-  </div>
-</section>
-
-<!-- LOGOS SECTION -->
-<section class="logos-section">
-  <p class="logos-label">Integrado com os maiores marketplaces do Brasil</p>
-  <div class="logos-grid">
-    <div class="logo-card">
-      <div class="logo-icon shopee">S</div>
-      <div>
-        <div class="logo-name">SHOPEE</div>
-        <div class="logo-fee">14–20% + taxa fixa/item</div>
+    <!-- TICKER -->
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span class="ticker-item">◆ SHOPEE</span>
+        <span class="ticker-item">◆ MERCADO LIVRE</span>
+        <span class="ticker-item">◆ TIKTOK SHOP</span>
+        <span class="ticker-item">◆ AMAZON</span>
+        <span class="ticker-item">◆ MARGEM GARANTIDA</span>
+        <span class="ticker-item">◆ SEM SURPRESAS</span>
+        <span class="ticker-item">◆ SHOPEE</span>
+        <span class="ticker-item">◆ MERCADO LIVRE</span>
+        <span class="ticker-item">◆ TIKTOK SHOP</span>
+        <span class="ticker-item">◆ AMAZON</span>
+        <span class="ticker-item">◆ MARGEM GARANTIDA</span>
+        <span class="ticker-item">◆ SEM SURPRESAS</span>
       </div>
     </div>
-    <div class="logo-card">
-      <div class="logo-icon ml">ML</div>
-      <div>
-        <div class="logo-name">MERCADO LIVRE</div>
-        <div class="logo-fee">10–19% + custo fixo &lt;R$79</div>
-      </div>
-    </div>
-    <div class="logo-card">
-      <div class="logo-icon tiktok">♪</div>
-      <div>
-        <div class="logo-name">TIKTOK SHOP</div>
-        <div class="logo-fee">6% teto R$50 · 0% 60 dias</div>
-      </div>
-    </div>
-    <div class="logo-card">
-      <div class="logo-icon amazon">a</div>
-      <div>
-        <div class="logo-name">AMAZON</div>
-        <div class="logo-fee">10–15% por categoria</div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- PROBLEM -->
-<section class="problem-section">
-  <div class="problem-inner">
-    <div class="problem-grid">
-      <div>
-        <div class="section-label">O problema</div>
-        <h2 class="section-title">VOCÊ AINDA<br><span>ESTÁ CHUTANDO</span><br>O PREÇO?</h2>
-        <p class="section-desc">Vender sem precificar certo é trabalhar de graça — ou pior, no prejuízo.</p>
-        <ul class="pain-list">
-          <li class="pain-item">
-            <span class="pain-icon">✕</span>
-            <div class="pain-text">
-              <strong>Taxas escondidas que destroem sua margem</strong>
-              Cada marketplace tem regras diferentes. CPF x CNPJ, plano clássico x premium, frete próprio x plataforma...
-            </div>
-          </li>
-          <li class="pain-item">
-            <span class="pain-icon">✕</span>
-            <div class="pain-text">
-              <strong>Planilha manual = erro humano garantido</strong>
-              Uma vírgula errada e você vende abaixo do custo sem perceber.
-            </div>
-          </li>
-          <li class="pain-item">
-            <span class="pain-icon">✕</span>
-            <div class="pain-text">
-              <strong>Sem visibilidade de onde o dinheiro vai</strong>
-              Produto, comissão, frete, imposto, marketing — tudo misturado, nada claro.
-            </div>
-          </li>
-        </ul>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+
+      <div class="badge">Calculadora de Precificação 2026</div>
+
+      <h1 class="hero-title">
+        <span class="white">PRECIFICAÇÃO</span><br />
+        <span class="blue">PRO</span>
+      </h1>
+
+      <p class="hero-sub">
+        Calcule o preço ideal com as <strong>taxas reais</strong> de cada
+        marketplace.<br />
+        Margem garantida, sem surpresas, sem achismos.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#precos" class="btn-primary">🚀 Quero acesso por R$ 47,00</a>
+        <a href="#funciona" class="btn-ghost">▷ Ver como funciona</a>
       </div>
 
-      <div class="problem-visual">
-        <div class="pv-label">// Exemplo: Produto R$50 sem precificação correta</div>
-        <div class="calc-row">
-          <span class="calc-label">Preço de venda</span>
-          <span class="calc-val white">R$ 50,00</span>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">4<span>+</span></div>
+          <div class="stat-label">Marketplaces integrados</div>
         </div>
-        <div class="calc-row">
-          <span class="calc-label">Custo do produto</span>
-          <span class="calc-val red">− R$ 25,00</span>
-        </div>
-        <div class="calc-row">
-          <span class="calc-label">Comissão Mercado Livre (16%)</span>
-          <span class="calc-val red">− R$ 8,00</span>
-        </div>
-        <div class="calc-row">
-          <span class="calc-label">Taxa fixa &lt;R$79</span>
-          <span class="calc-val red">− R$ 5,00</span>
-        </div>
-        <div class="calc-row">
-          <span class="calc-label">Embalagem</span>
-          <span class="calc-val red">− R$ 3,50</span>
-        </div>
-        <div class="calc-row">
-          <span class="calc-label">Imposto (Simples 6%)</span>
-          <span class="calc-val red">− R$ 3,00</span>
-        </div>
-        <div class="calc-total">
-          <span class="calc-total-label">⚠ Lucro real</span>
-          <span class="calc-total-val red-text">R$ 5,50</span>
-        </div>
-        <p class="calc-note">Você achava que tinha 50% de margem. Na prática: 11%. Com o Precificação PRO você sabe isso ANTES de listar.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FEATURES -->
-<section id="funciona" class="section reveal">
-  <div class="section-label">Como funciona</div>
-  <h2 class="section-title">TUDO QUE VOCÊ<br><span>PRECISA SABER</span></h2>
-  <p class="section-desc">Regras de negócio de cada marketplace embutidas. Só inserir seus dados e calcular.</p>
-
-  <div class="features-grid">
-    <div class="feat-card">
-      <div class="feat-icon">🧮</div>
-      <div class="feat-title">TAXAS REAIS EMBUTIDAS</div>
-      <div class="feat-desc">Cada marketplace tem suas próprias regras: comissão escalonada, taxa fixa por faixa de preço, plano individual ou profissional. Tudo já programado.</div>
-      <span class="feat-tag">Zero configuração</span>
-    </div>
-    <div class="feat-card">
-      <div class="feat-icon">📊</div>
-      <div class="feat-title">DISTRIBUIÇÃO VISUAL</div>
-      <div class="feat-desc">Veja exatamente para onde vai cada real: produto, comissão, frete, marketing, impostos e lucro líquido — em uma barra visual instantânea.</div>
-      <span class="feat-tag">Clareza total</span>
-    </div>
-    <div class="feat-card">
-      <div class="feat-icon">💡</div>
-      <div class="feat-title">MARGEM REVERSA</div>
-      <div class="feat-desc">Informe sua margem desejada e descubra qual deve ser o preço de venda mínimo para atingi-la em cada marketplace.</div>
-      <span class="feat-tag">Estratégia de preço</span>
-    </div>
-    <div class="feat-card">
-      <div class="feat-icon">🔄</div>
-      <div class="feat-title">COMPARE MARKETPLACES</div>
-      <div class="feat-desc">Calcule o mesmo produto nos 4 marketplaces ao mesmo tempo e veja qual oferece maior lucratividade real para o seu caso específico.</div>
-      <span class="feat-tag">Multi-plataforma</span>
-    </div>
-    <div class="feat-card">
-      <div class="feat-icon">🏷️</div>
-      <div class="feat-title">CUPONS E MARKETING</div>
-      <div class="feat-desc">Inclua custos com Amazon Ads (ACOS), promoções e cupons no cálculo. Veja o impacto real de cada ação de marketing na sua margem.</div>
-      <span class="feat-tag">Marketing incluso</span>
-    </div>
-    <div class="feat-card">
-      <div class="feat-icon">⚡</div>
-      <div class="feat-title">RESULTADO INSTANTÂNEO</div>
-      <div class="feat-desc">Sem aguardar. Sem clicar em calcular. O resultado atualiza em tempo real conforme você preenche os campos. Rápido como pensar.</div>
-      <span class="feat-tag">Tempo real</span>
-    </div>
-  </div>
-</section>
-
-<!-- DEMO/TOUR SECTION -->
-<section class="demo-section" id="demo">
-  <div class="demo-inner">
-    <div class="demo-header">
-      <div>
-        <div class="section-label">Preview do sistema</div>
-        <h2 class="section-title">VEJA COMO <span>FUNCIONA</span></h2>
-      </div>
-      <p class="demo-header-desc">Cada campo tem um propósito. Entenda o sistema antes mesmo de abrir.</p>
-    </div>
-
-    <!-- Step indicators -->
-    <div class="tour-steps">
-      <div class="tour-step active" onclick="goStep(0, event)"><span class="ts-num">1</span> Produto</div>
-      <div class="tour-step" onclick="goStep(1, event)"><span class="ts-num">2</span> Taxas</div>
-      <div class="tour-step" onclick="goStep(2, event)"><span class="ts-num">3</span> Marketing</div>
-      <div class="tour-step" onclick="goStep(3, event)"><span class="ts-num">4</span> Margem</div>
-      <div class="tour-step" onclick="goStep(4, event)"><span class="ts-num">5</span> Resultado</div>
-    </div>
-
-    <!-- UI MOCKUP with annotations -->
-    <div class="tour-wrap">
-      <!-- STATIC MOCKUP -->
-      <div class="mock-shell">
-        <div class="demo-bar">
-          <div class="demo-dots">
-            <div class="demo-dot r"></div>
-            <div class="demo-dot y"></div>
-            <div class="demo-dot g"></div>
-          </div>
-          <span class="demo-title-bar">◆ AMAZON · 2026 — Precificação Profissional</span>
-          <span class="demo-info-btn">i Como funciona</span>
+        <div class="stat">
+          <div class="stat-num">100<span>%</span></div>
+          <div class="stat-label">Taxas reais e atualizadas</div>
         </div>
 
-        <div class="mock-body">
-          <!-- LEFT COL -->
-          <div class="mock-col">
-            <!-- PANEL 1: PRODUTO -->
-            <div class="mock-panel" id="mock-p0">
-              <div class="demo-panel-label">Produto</div>
-              <div class="field-group">
-                <div class="field-label">Preço de Compra <span>R$</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">R$</span><span class="mock-val">25,00</span></div>
-              </div>
-              <div class="field-group">
-                <div class="field-label">Embalagem <span>R$</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">R$</span><span class="mock-val">3,50</span></div>
-              </div>
-            </div>
-
-            <!-- PANEL 3: MARKETING -->
-            <div class="mock-panel" id="mock-p2">
-              <div class="demo-panel-label">Marketing</div>
-              <div class="field-group">
-                <div class="field-label">Amazon Ads (ACOS) <span>%</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">%</span><span class="mock-val">8</span></div>
-              </div>
-              <div class="field-group">
-                <div class="field-label">Promoções / Cupons <span>%</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">%</span><span class="mock-val">0</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- RIGHT COL -->
-          <div class="mock-col">
-            <!-- PANEL 2: TAXAS -->
-            <div class="mock-panel" id="mock-p1">
-              <div class="demo-panel-label">Taxas Amazon</div>
-              <div class="field-group">
-                <div class="field-label">Plano</div>
-                <div class="field-input mock-locked"><span class="mock-val">Profissional (grátis 1º ano / R$19/mês)</span></div>
-              </div>
-              <div class="field-group">
-                <div class="field-label">Comissão da Categoria <span>%</span></div>
-                <div class="field-input mock-locked"><span class="mock-val">TV/Áudio — 10%</span></div>
-              </div>
-              <div class="field-group">
-                <div class="field-label">Frete próprio <span>R$</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">R$</span><span class="mock-val">0</span></div>
-              </div>
-            </div>
-
-            <!-- PANEL 4: IMPOSTOS -->
-            <div class="mock-panel" id="mock-p3-extra">
-              <div class="demo-panel-label red-label">Impostos & Outros</div>
-              <div class="field-group">
-                <div class="field-label">Imposto <span>%</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">%</span><span class="mock-val">6</span></div>
-              </div>
-              <div class="field-group">
-                <div class="field-label">Outros custos <span>%</span></div>
-                <div class="field-input mock-locked"><span class="field-prefix">%</span><span class="mock-val">0</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- MARGEM PANEL full-width -->
-          <div class="mock-panel mock-result" id="mock-p4">
-            <div class="margem-header">
-              <div class="margem-title">
-                <span class="margem-icon">🎯</span>
-                <span>Margem de Lucro Desejada</span>
-              </div>
-              <span class="margem-value">80%</span>
-            </div>
-            <div class="mock-slider-track">
-              <div class="mock-slider-fill" style="width:80%"></div>
-              <div class="mock-slider-thumb" style="left:80%"></div>
-            </div>
-            <div class="slider-labels">
-              <span>1%</span>
-              <span>20%</span>
-              <span>40%</span>
-              <span>60%</span>
-              <span class="active">80%</span>
-            </div>
-          </div>
-
-          <!-- RESULT PANEL full-width -->
-          <div class="mock-panel mock-result" id="mock-p3">
-            <div class="demo-panel-label">// Distribuição do Preço de Venda</div>
-            <div class="result-bar-wrap">
-              <div class="rb produto" style="width:47%">47,3%</div>
-              <div class="rb taxa" style="width:13%">12,7%</div>
-              <div class="rb lucro" style="width:40%">40,0%</div>
-            </div>
-            <div class="legend">
-              <div class="leg-item"><div class="leg-dot blue"></div> Produto</div>
-              <div class="leg-item"><div class="leg-dot red"></div> Amazon (comis+frete)</div>
-              <div class="leg-item"><div class="leg-dot green"></div> Lucro Líquido</div>
-            </div>
-            <div class="result-numbers">
-              <div class="rnum"><div class="rnum-val blue">R$ 59,90</div><div class="rnum-label">Preço de Venda</div></div>
-              <div class="rnum"><div class="rnum-val red">R$ 7,61</div><div class="rnum-label">Total de Taxas</div></div>
-              <div class="rnum"><div class="rnum-val green">R$ 23,94</div><div class="rnum-label">Lucro Líquido</div></div>
-            </div>
-          </div>
+        <div class="stat">
+          <div class="stat-num">3<span>s</span></div>
+          <div class="stat-label">Cálculo instantâneo</div>
         </div>
       </div>
+    </section>
 
-      <!-- ANNOTATION CARDS -->
-      <div class="annot-area">
-        <!-- Step 0: Produto -->
-        <div class="annot-card active" id="annot-0">
-          <div class="annot-num">① PRODUTO</div>
-          <h3 class="annot-title">Insira seu custo real</h3>
-          <p class="annot-text">Coloque o <strong>preço de compra</strong> do produto e o custo de <strong>embalagem</strong>. O sistema usa isso como base para calcular o preço mínimo de venda com a margem que você quer.</p>
-          <div class="annot-tip">Inclua tudo que você gasta antes de vender: produto + embalagem + etiqueta.</div>
-          <div class="annot-nav">
-            <button class="annot-btn" onclick="goStep(1, event)">Próximo</button>
-          </div>
-        </div>
-
-        <!-- Step 1: Taxas -->
-        <div class="annot-card" id="annot-1">
-          <div class="annot-num">② TAXAS DO MARKETPLACE</div>
-          <h3 class="annot-title">Regras embutidas, zero complicação</h3>
-          <p class="annot-text">Selecione o <strong>plano</strong> (Individual ou Profissional) e a <strong>categoria</strong> do produto. O sistema já conhece todas as tabelas de comissão da Amazon — de 10% a 15% por categoria — e aplica automaticamente.</p>
-          <div class="annot-tip">Não sabe a categoria? O sistema sugere com base no tipo de produto que você cadastra.</div>
-          <div class="annot-nav">
-            <button class="annot-btn ghost" onclick="goStep(0, event)">Voltar</button>
-            <button class="annot-btn" onclick="goStep(2, event)">Próximo</button>
-          </div>
-        </div>
-
-        <!-- Step 2: Marketing -->
-        <div class="annot-card" id="annot-2">
-          <div class="annot-num">③ MARKETING</div>
-          <h3 class="annot-title">Anúncio e cupom no cálculo</h3>
-          <p class="annot-text">Informe o <strong>ACOS</strong> (custo do Amazon Ads em %) e o desconto de promoções. Esses custos são somados antes de calcular sua margem — assim você nunca vende no prejuízo por causa de anúncio.</p>
-          <div class="annot-tip">Se não faz anúncio, deixe em 0. Você ainda vê o resultado limpo.</div>
-          <div class="annot-nav">
-            <button class="annot-btn ghost" onclick="goStep(1, event)">Voltar</button>
-            <button class="annot-btn" onclick="goStep(3, event)">Próximo</button>
-          </div>
-        </div>
-
-        <!-- Step 3: Margem -->
-        <div class="annot-card" id="annot-3">
-          <div class="annot-num">④ MARGEM DE LUCRO DESEJADA</div>
-          <h3 class="annot-title">Você define quanto quer ganhar</h3>
-          <p class="annot-text">Arraste o <strong>slider</strong> até a margem que você quer lucrar. O sistema calcula automaticamente qual deve ser o <strong>preço mínimo de venda</strong> para garantir essa margem após todas as taxas e custos.</p>
-          <div class="annot-tip">Quer 30% de lucro líquido? Defina 30% — o sistema entrega o preço exato para isso.</div>
-          <div class="annot-nav">
-            <button class="annot-btn ghost" onclick="goStep(2, event)">Voltar</button>
-            <button class="annot-btn" onclick="goStep(4, event)">Próximo</button>
-          </div>
-        </div>
-
-        <!-- Step 4: Resultado -->
-        <div class="annot-card" id="annot-4">
-          <div class="annot-num">⑤ RESULTADO</div>
-          <h3 class="annot-title">Tudo claro de uma vez</h3>
-          <p class="annot-text">A <strong>barra visual</strong> mostra para onde vai cada centavo do preço de venda. Você vê em tempo real: quanto é custo de produto, quanto a Amazon leva e quanto sobra de <strong>lucro líquido</strong>.</p>
-          <div class="annot-tip">O preço de venda é calculado automaticamente para garantir a margem que você definiu.</div>
-          <div class="annot-nav">
-            <button class="annot-btn ghost" onclick="goStep(3, event)">Voltar</button>
-            <a href="#precos" class="annot-btn cta">Quero usar agora</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MARKETPLACES -->
-<section id="marketplaces" class="section reveal">
-  <div class="section-label">Regras de negócio</div>
-  <h2 class="section-title">CADA <span>MARKETPLACE</span><br>TEM SUA LEI</h2>
-  <p class="section-desc">Tudo já embutido no sistema. Você não precisa saber de cor — o Precificação PRO sabe por você.</p>
-
-  <div class="mp-grid">
-    <div class="mp-card shopee">
-      <div class="mp-header">
-        <div class="mp-logo shopee">S</div>
-        <div>
-          <div class="mp-name">SHOPEE</div>
-          <div class="mp-badge">14–20% + taxa fixa</div>
-        </div>
-      </div>
-      <ul class="mp-rules">
-        <li class="mp-rule">Comissão escalonada por faixa de preço do produto</li>
-        <li class="mp-rule">Regras diferentes para CPF e CNPJ</li>
-        <li class="mp-rule">Taxa fixa por item em certas categorias</li>
-        <li class="mp-rule">Programa de frete subsidiado da plataforma</li>
-      </ul>
-    </div>
-
-    <div class="mp-card ml">
-      <div class="mp-header">
-        <div class="mp-logo ml">ML</div>
-        <div>
-          <div class="mp-name">MERCADO LIVRE</div>
-          <div class="mp-badge">10–19% + custo fixo</div>
-        </div>
-      </div>
-      <ul class="mp-rules">
-        <li class="mp-rule">Plano Clássico ou Premium com taxas distintas</li>
-        <li class="mp-rule">Taxa fixa para produtos abaixo de R$79</li>
-        <li class="mp-rule">Comissão varia por categoria e nível de reputação</li>
-        <li class="mp-rule">Frete Full: cálculo integrado ao preço final</li>
-      </ul>
-    </div>
-
-    <div class="mp-card tiktok">
-      <div class="mp-header">
-        <div class="mp-logo tiktok">♪</div>
-        <div>
-          <div class="mp-name">TIKTOK SHOP</div>
-          <div class="mp-badge">6% · teto R$50/pedido</div>
-        </div>
-      </div>
-      <ul class="mp-rules">
-        <li class="mp-rule">Taxa base mais baixa do mercado: apenas 6%</li>
-        <li class="mp-rule">Teto máximo de R$50 por pedido</li>
-        <li class="mp-rule">Programa 0% por 60 dias para novos lojistas</li>
-        <li class="mp-rule">Comissão de afiliados opcional inclusa no cálculo</li>
-      </ul>
-    </div>
-
-    <div class="mp-card amazon">
-      <div class="mp-header">
-        <div class="mp-logo amazon">a</div>
-        <div>
-          <div class="mp-name">AMAZON</div>
-          <div class="mp-badge">10–15% por categoria</div>
-        </div>
-      </div>
-      <ul class="mp-rules">
-        <li class="mp-rule">Plano Individual (R$2/item) ou Profissional (R$19/mês)</li>
-        <li class="mp-rule">Comissão mínima de R$1 a R$2 por item</li>
-        <li class="mp-rule">15 categorias com percentuais diferentes mapeadas</li>
-        <li class="mp-rule">Amazon Ads (ACOS) integrado ao cálculo de margem</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-  <div class="testimonials-inner">
-    <div class="section-label">Resultados reais</div>
-    <h2 class="section-title">QUEM JÁ <span>USOU</span></h2>
-    <div class="test-grid">
-      <div class="test-card">
-        <div class="stars">★★★★★</div>
-        <p class="test-text">"Eu vendia no Mercado Livre há 1 ano e nunca entendi por que não lucrava. Com o Precificação PRO descobri que estava pagando 18% de comissão + taxa fixa e nem sabia."</p>
-        <div class="test-author">
-          <div class="test-avatar">MR</div>
+    <!-- LOGOS SECTION -->
+    <section class="logos-section">
+      <p class="logos-label">Integrado com os maiores marketplaces do Brasil</p>
+      <div class="logos-grid">
+        <div class="logo-card">
+          <div class="logo-icon shopee">s</div>
           <div>
-            <div class="test-name">Marcos R.</div>
-            <div class="test-role">Vendedor Mercado Livre · SP</div>
+            <div class="logo-name">SHOPEE</div>
+            <div class="logo-fee">14–20% + taxa fixa/item</div>
           </div>
         </div>
-      </div>
-      <div class="test-card">
-        <div class="stars">★★★★★</div>
-        <p class="test-text">"Migrei do Shopee para TikTok Shop depois de comparar os dois lados. Minha margem aumentou 8 pontos percentuais no mesmo produto. Ferramenta indispensável."</p>
-        <div class="test-author">
-          <div class="test-avatar">CL</div>
+        <div class="logo-card">
+          <div class="logo-icon ml">ML</div>
           <div>
-            <div class="test-name">Carla L.</div>
-            <div class="test-role">Loja de moda · TikTok Shop · MG</div>
+            <div class="logo-name">MERCADO LIVRE</div>
+            <div class="logo-fee">10–19% + custo fixo &lt;R$79</div>
           </div>
         </div>
-      </div>
-      <div class="test-card">
-        <div class="stars">★★★★★</div>
-        <p class="test-text">"Uso toda semana antes de listar qualquer produto novo. Em 3 meses meu faturamento cresceu 40% porque parei de vender produto que me dava prejuízo."</p>
-        <div class="test-author">
-          <div class="test-avatar">FP</div>
+        <div class="logo-card">
+          <div class="logo-icon tiktok">♪</div>
           <div>
-            <div class="test-name">Felipe P.</div>
-            <div class="test-role">Dropshipping · Shopee + Amazon · RS</div>
+            <div class="logo-name">TIKTOK SHOP</div>
+            <div class="logo-fee">6% teto R$50 · 0% 60 dias</div>
+          </div>
+        </div>
+        <div class="logo-card">
+          <div class="logo-icon amazon">a</div>
+          <div>
+            <div class="logo-name">AMAZON</div>
+            <div class="logo-fee">10–15% por categoria</div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- PRICING -->
-<section class="pricing-section" id="precos">
-  <div class="pricing-inner">
-    <div class="section-label center">Acesso completo</div>
-    <h2 class="section-title center">UM PLANO.<br><span>TUDO INCLUÍDO.</span></h2>
-    <p class="section-desc center">Sem mensalidade, sem surpresa. Pague uma vez e use por 1 ano inteiro.</p>
-
-    <div class="pricing-card-wrapper">
-      <div class="price-card featured">
-        <div class="price-badge">✦ ACESSO ANUAL COMPLETO</div>
-
-        <div class="price-header">
-          <div class="price-sublabel">Preço único por 1 ano</div>
-          <div class="price-val">
-            <span class="price-currency">R$</span>27<span class="price-cents">,90</span>
+    <!-- PROBLEM -->
+    <section class="problem-section">
+      <div class="problem-inner">
+        <div class="problem-grid">
+          <div>
+            <div class="section-label">O problema</div>
+            <h2 class="section-title">
+              VOCÊ AINDA<br /><span>ESTÁ CHUTANDO</span><br />O PREÇO?
+            </h2>
+            <p class="section-desc">
+              Vender sem precificar certo é trabalhar de graça — ou pior, no
+              prejuízo.
+            </p>
+            <ul class="pain-list">
+              <li class="pain-item">
+                <span class="pain-icon">✕</span>
+                <div class="pain-text">
+                  <strong>Taxas escondidas que destroem sua margem</strong>
+                  Cada marketplace tem regras diferentes. CPF x CNPJ, plano
+                  clássico x premium, frete próprio x plataforma...
+                </div>
+              </li>
+              <li class="pain-item">
+                <span class="pain-icon">✕</span>
+                <div class="pain-text">
+                  <strong>Planilha manual = erro humano garantido</strong>
+                  Uma vírgula errada e você vende abaixo do custo sem perceber.
+                </div>
+              </li>
+              <li class="pain-item">
+                <span class="pain-icon">✕</span>
+                <div class="pain-text">
+                  <strong>Sem visibilidade de onde o dinheiro vai</strong>
+                  Produto, comissão, frete, imposto, marketing — tudo misturado,
+                  nada claro.
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="price-monthly">= menos de <strong>R$ 2,33 por mês</strong></div>
+
+          <div class="problem-visual">
+            <div class="pv-label">
+              // Exemplo: Produto R$50 sem precificação correta
+            </div>
+            <div class="calc-row">
+              <span class="calc-label">Preço de venda</span>
+              <span class="calc-val white">R$ 50,00</span>
+            </div>
+            <div class="calc-row">
+              <span class="calc-label">Custo do produto</span>
+              <span class="calc-val red">− R$ 25,00</span>
+            </div>
+            <div class="calc-row">
+              <span class="calc-label">Comissão Mercado Livre (16%)</span>
+              <span class="calc-val red">− R$ 8,00</span>
+            </div>
+            <div class="calc-row">
+              <span class="calc-label">Taxa fixa &lt;R$79</span>
+              <span class="calc-val red">− R$ 5,00</span>
+            </div>
+            <div class="calc-row">
+              <span class="calc-label">Embalagem</span>
+              <span class="calc-val red">− R$ 3,50</span>
+            </div>
+            <div class="calc-row">
+              <span class="calc-label">Imposto (Simples 6%)</span>
+              <span class="calc-val red">− R$ 3,00</span>
+            </div>
+            <div class="calc-total">
+              <span class="calc-total-label">⚠ Lucro real</span>
+              <span class="calc-total-val red-text">R$ 5,50</span>
+            </div>
+            <p class="calc-note">
+              Você achava que tinha 50% de margem. Na prática: 11%. Com o
+              Precificação PRO você sabe isso ANTES de listar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="funciona" class="section reveal">
+      <div class="section-label">Como funciona</div>
+      <h2 class="section-title">
+        TUDO QUE VOCÊ<br /><span>PRECISA SABER</span>
+      </h2>
+      <p class="section-desc">
+        Regras de negócio de cada marketplace embutidas. Só inserir seus dados e
+        calcular.
+      </p>
+
+      <div class="features-grid">
+        <div class="feat-card">
+          <div class="feat-icon">🧮</div>
+          <div class="feat-title">TAXAS REAIS EMBUTIDAS</div>
+          <div class="feat-desc">
+            Cada marketplace tem suas próprias regras: comissão escalonada, taxa
+            fixa por faixa de preço, plano individual ou profissional. Tudo já
+            programado.
+          </div>
+          <span class="feat-tag">Zero configuração</span>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">📊</div>
+          <div class="feat-title">DISTRIBUIÇÃO VISUAL</div>
+          <div class="feat-desc">
+            Veja exatamente para onde vai cada real: produto, comissão, frete,
+            marketing, impostos e lucro líquido — em uma barra visual
+            instantânea.
+          </div>
+          <span class="feat-tag">Clareza total</span>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">💡</div>
+          <div class="feat-title">MARGEM REVERSA</div>
+          <div class="feat-desc">
+            Informe sua margem desejada e descubra qual deve ser o preço de
+            venda mínimo para atingi-la em cada marketplace.
+          </div>
+          <span class="feat-tag">Estratégia de preço</span>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">🔄</div>
+          <div class="feat-title">COMPARE MARKETPLACES</div>
+          <div class="feat-desc">
+            Calcule o mesmo produto nos 4 marketplaces ao mesmo tempo e veja
+            qual oferece maior lucratividade real para o seu caso específico.
+          </div>
+          <span class="feat-tag">Multi-plataforma</span>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">🏷️</div>
+          <div class="feat-title">CUPONS E MARKETING</div>
+          <div class="feat-desc">
+            Inclua custos com Amazon Ads (ACOS), promoções e cupons no cálculo.
+            Veja o impacto real de cada ação de marketing na sua margem.
+          </div>
+          <span class="feat-tag">Marketing incluso</span>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">⚡</div>
+          <div class="feat-title">RESULTADO INSTANTÂNEO</div>
+          <div class="feat-desc">
+            Sem aguardar. Sem clicar em calcular. O resultado atualiza em tempo
+            real conforme você preenche os campos. Rápido como pensar.
+          </div>
+          <span class="feat-tag">Tempo real</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEMO/TOUR SECTION -->
+    <section class="demo-section" id="demo">
+      <div class="demo-inner">
+        <div class="demo-header">
+          <div>
+            <div class="section-label">Preview do sistema</div>
+            <h2 class="section-title">VEJA COMO <span>FUNCIONA</span></h2>
+          </div>
+          <p class="demo-header-desc">
+            Cada campo tem um propósito. Entenda o sistema antes mesmo de abrir.
+          </p>
         </div>
 
-        <div class="price-divider"></div>
+        <!-- Step indicators -->
+        <div class="tour-steps">
+          <div class="tour-step active" onclick="goStep(0, event)">
+            <span class="ts-num">1</span> Produto
+          </div>
+          <div class="tour-step" onclick="goStep(1, event)">
+            <span class="ts-num">2</span> Taxas
+          </div>
+          <div class="tour-step" onclick="goStep(2, event)">
+            <span class="ts-num">3</span> Marketing
+          </div>
+          <div class="tour-step" onclick="goStep(3, event)">
+            <span class="ts-num">4</span> Margem
+          </div>
+          <div class="tour-step" onclick="goStep(4, event)">
+            <span class="ts-num">5</span> Resultado
+          </div>
+        </div>
 
-        <ul class="price-features">
-          <li class="pf"><span class="pf-check">✓</span>Todos os 4 marketplaces — Shopee, ML, TikTok Shop e Amazon</li>
-          <li class="pf"><span class="pf-check">✓</span>Cálculos ilimitados durante 1 ano</li>
-          <li class="pf"><span class="pf-check">✓</span>Margem de lucro com slider interativo</li>
-          <li class="pf"><span class="pf-check">✓</span>Comparação multi-marketplace simultânea</li>
-          <li class="pf"><span class="pf-check">✓</span>Marketing, cupons e Amazon Ads (ACOS)</li>
-          <li class="pf"><span class="pf-check">✓</span>Impostos e outros custos no cálculo</li>
-          <li class="pf"><span class="pf-check">✓</span>Distribuição visual do preço de venda</li>
-          <li class="pf"><span class="pf-check">✓</span>Taxas atualizadas de cada marketplace</li>
-        </ul>
+        <!-- UI MOCKUP with annotations -->
+        <div class="tour-wrap">
+          <!-- STATIC MOCKUP -->
+          <div class="mock-shell">
+            <div class="demo-bar">
+              <div class="demo-dots">
+                <div class="demo-dot r"></div>
+                <div class="demo-dot y"></div>
+                <div class="demo-dot g"></div>
+              </div>
+              <span class="demo-title-bar"
+                >◆ AMAZON · 2026 — Precificação Profissional</span
+              >
+              <span class="demo-info-btn">i Como funciona</span>
+            </div>
 
-        <button class="price-cta solid">🚀 Quero acesso por R$ 27,90</button>
-        <p class="price-secure">🔒 Pagamento seguro · Acesso imediato · 7 dias de garantia</p>
+            <div class="mock-body">
+              <!-- LEFT COL -->
+              <div class="mock-col">
+                <!-- PANEL 1: PRODUTO -->
+                <div class="mock-panel" id="mock-p0">
+                  <div class="demo-panel-label">Produto</div>
+                  <div class="field-group">
+                    <div class="field-label">
+                      Preço de Compra <span>R$</span>
+                    </div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">R$</span
+                      ><span class="mock-val">25,00</span>
+                    </div>
+                  </div>
+                  <div class="field-group">
+                    <div class="field-label">Embalagem <span>R$</span></div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">R$</span
+                      ><span class="mock-val">3,50</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- PANEL 3: MARKETING -->
+                <div class="mock-panel" id="mock-p2">
+                  <div class="demo-panel-label">Marketing</div>
+                  <div class="field-group">
+                    <div class="field-label">
+                      Amazon Ads (ACOS) <span>%</span>
+                    </div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">%</span
+                      ><span class="mock-val">8</span>
+                    </div>
+                  </div>
+                  <div class="field-group">
+                    <div class="field-label">
+                      Promoções / Cupons <span>%</span>
+                    </div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">%</span
+                      ><span class="mock-val">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- RIGHT COL -->
+              <div class="mock-col">
+                <!-- PANEL 2: TAXAS -->
+                <div class="mock-panel" id="mock-p1">
+                  <div class="demo-panel-label">Taxas Amazon</div>
+                  <div class="field-group">
+                    <div class="field-label">Plano</div>
+                    <div class="field-input mock-locked">
+                      <span class="mock-val"
+                        >Profissional (grátis 1º ano / R$19/mês)</span
+                      >
+                    </div>
+                  </div>
+                  <div class="field-group">
+                    <div class="field-label">
+                      Comissão da Categoria <span>%</span>
+                    </div>
+                    <div class="field-input mock-locked">
+                      <span class="mock-val">TV/Áudio — 10%</span>
+                    </div>
+                  </div>
+                  <div class="field-group">
+                    <div class="field-label">Frete próprio <span>R$</span></div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">R$</span
+                      ><span class="mock-val">0</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- PANEL 4: IMPOSTOS -->
+                <div class="mock-panel" id="mock-p3-extra">
+                  <div class="demo-panel-label red-label">
+                    Impostos & Outros
+                  </div>
+                  <div class="field-group">
+                    <div class="field-label">Imposto <span>%</span></div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">%</span
+                      ><span class="mock-val">6</span>
+                    </div>
+                  </div>
+                  <div class="field-group">
+                    <div class="field-label">Outros custos <span>%</span></div>
+                    <div class="field-input mock-locked">
+                      <span class="field-prefix">%</span
+                      ><span class="mock-val">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MARGEM PANEL full-width -->
+              <div class="mock-panel mock-result" id="mock-p4">
+                <div class="margem-header">
+                  <div class="margem-title">
+                    <span class="margem-icon">🎯</span>
+                    <span>Margem de Lucro Desejada</span>
+                  </div>
+                  <span class="margem-value">80%</span>
+                </div>
+                <div class="mock-slider-track">
+                  <div class="mock-slider-fill" style="width: 80%"></div>
+                  <div class="mock-slider-thumb" style="left: 80%"></div>
+                </div>
+                <div class="slider-labels">
+                  <span>1%</span>
+                  <span>20%</span>
+                  <span>40%</span>
+                  <span>60%</span>
+                  <span class="active">80%</span>
+                </div>
+              </div>
+
+              <!-- RESULT PANEL full-width -->
+              <div class="mock-panel mock-result" id="mock-p3">
+                <div class="demo-panel-label">
+                  // Distribuição do Preço de Venda
+                </div>
+                <div class="result-bar-wrap">
+                  <div class="rb produto" style="width: 47%">47,3%</div>
+                  <div class="rb taxa" style="width: 13%">12,7%</div>
+                  <div class="rb lucro" style="width: 40%">40,0%</div>
+                </div>
+                <div class="legend">
+                  <div class="leg-item">
+                    <div class="leg-dot blue"></div>
+                    Produto
+                  </div>
+                  <div class="leg-item">
+                    <div class="leg-dot red"></div>
+                    Amazon (comis+frete)
+                  </div>
+                  <div class="leg-item">
+                    <div class="leg-dot green"></div>
+                    Lucro Líquido
+                  </div>
+                </div>
+                <div class="result-numbers">
+                  <div class="rnum">
+                    <div class="rnum-val blue">R$ 59,90</div>
+                    <div class="rnum-label">Preço de Venda</div>
+                  </div>
+                  <div class="rnum">
+                    <div class="rnum-val red">R$ 7,61</div>
+                    <div class="rnum-label">Total de Taxas</div>
+                  </div>
+                  <div class="rnum">
+                    <div class="rnum-val green">R$ 23,94</div>
+                    <div class="rnum-label">Lucro Líquido</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ANNOTATION CARDS -->
+          <div class="annot-area">
+            <!-- Step 0: Produto -->
+            <div class="annot-card active" id="annot-0">
+              <div class="annot-num">① PRODUTO</div>
+              <h3 class="annot-title">Insira seu custo real</h3>
+              <p class="annot-text">
+                Coloque o <strong>preço de compra</strong> do produto e o custo
+                de <strong>embalagem</strong>. O sistema usa isso como base para
+                calcular o preço mínimo de venda com a margem que você quer.
+              </p>
+              <div class="annot-tip">
+                Inclua tudo que você gasta antes de vender: produto + embalagem
+                + etiqueta.
+              </div>
+              <div class="annot-nav">
+                <button class="annot-btn" onclick="goStep(1, event)">
+                  Próximo
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 1: Taxas -->
+            <div class="annot-card" id="annot-1">
+              <div class="annot-num">② TAXAS DO MARKETPLACE</div>
+              <h3 class="annot-title">Regras embutidas, zero complicação</h3>
+              <p class="annot-text">
+                Selecione o <strong>plano</strong> (Individual ou Profissional)
+                e a <strong>categoria</strong> do produto. O sistema já conhece
+                todas as tabelas de comissão da Amazon — de 10% a 15% por
+                categoria — e aplica automaticamente.
+              </p>
+              <div class="annot-tip">
+                Não sabe a categoria? O sistema sugere com base no tipo de
+                produto que você cadastra.
+              </div>
+              <div class="annot-nav">
+                <button class="annot-btn ghost" onclick="goStep(0, event)">
+                  Voltar
+                </button>
+                <button class="annot-btn" onclick="goStep(2, event)">
+                  Próximo
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Marketing -->
+            <div class="annot-card" id="annot-2">
+              <div class="annot-num">③ MARKETING</div>
+              <h3 class="annot-title">Anúncio e cupom no cálculo</h3>
+              <p class="annot-text">
+                Informe o <strong>ACOS</strong> (custo do Amazon Ads em %) e o
+                desconto de promoções. Esses custos são somados antes de
+                calcular sua margem — assim você nunca vende no prejuízo por
+                causa de anúncio.
+              </p>
+              <div class="annot-tip">
+                Se não faz anúncio, deixe em 0. Você ainda vê o resultado limpo.
+              </div>
+              <div class="annot-nav">
+                <button class="annot-btn ghost" onclick="goStep(1, event)">
+                  Voltar
+                </button>
+                <button class="annot-btn" onclick="goStep(3, event)">
+                  Próximo
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3: Margem -->
+            <div class="annot-card" id="annot-3">
+              <div class="annot-num">④ MARGEM DE LUCRO DESEJADA</div>
+              <h3 class="annot-title">Você define quanto quer ganhar</h3>
+              <p class="annot-text">
+                Arraste o <strong>slider</strong> até a margem que você quer
+                lucrar. O sistema calcula automaticamente qual deve ser o
+                <strong>preço mínimo de venda</strong> para garantir essa margem
+                após todas as taxas e custos.
+              </p>
+              <div class="annot-tip">
+                Quer 30% de lucro líquido? Defina 30% — o sistema entrega o
+                preço exato para isso.
+              </div>
+              <div class="annot-nav">
+                <button class="annot-btn ghost" onclick="goStep(2, event)">
+                  Voltar
+                </button>
+                <button class="annot-btn" onclick="goStep(4, event)">
+                  Próximo
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 4: Resultado -->
+            <div class="annot-card" id="annot-4">
+              <div class="annot-num">⑤ RESULTADO</div>
+              <h3 class="annot-title">Tudo claro de uma vez</h3>
+              <p class="annot-text">
+                A <strong>barra visual</strong> mostra para onde vai cada
+                centavo do preço de venda. Você vê em tempo real: quanto é custo
+                de produto, quanto a Amazon leva e quanto sobra de
+                <strong>lucro líquido</strong>.
+              </p>
+              <div class="annot-tip">
+                O preço de venda é calculado automaticamente para garantir a
+                margem que você definiu.
+              </div>
+              <div class="annot-nav">
+                <button class="annot-btn ghost" onclick="goStep(3, event)">
+                  Voltar
+                </button>
+                <a href="#precos" class="annot-btn cta">Quero usar agora</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="guarantee">
-      <span class="guarantee-icon">🛡️</span>
-      <div><strong>Garantia de 7 dias.</strong> Não ficou satisfeito? Devolvemos 100% do valor. Sem perguntas.</div>
-    </div>
-  </div>
-</section>
+    <!-- MARKETPLACES -->
+    <section id="marketplaces" class="section reveal">
+      <div class="section-label">Regras de negócio</div>
+      <h2 class="section-title">
+        CADA <span>MARKETPLACE</span><br />TEM SUA LEI
+      </h2>
+      <p class="section-desc">
+        Tudo já embutido no sistema. Você não precisa saber de cor — o
+        Precificação PRO sabe por você.
+      </p>
 
-<!-- FAQ -->
-<section class="section reveal">
-  <div class="section-label">FAQ</div>
-  <h2 class="section-title">PERGUNTAS<br><span>FREQUENTES</span></h2>
+      <div class="mp-grid">
+        <div class="mp-card shopee">
+          <div class="mp-header">
+            <div class="mp-logo shopee">S</div>
+            <div>
+              <div class="mp-name">SHOPEE</div>
+              <div class="mp-badge">14–20% + taxa fixa</div>
+            </div>
+          </div>
+          <ul class="mp-rules">
+            <li class="mp-rule">
+              Comissão escalonada por faixa de preço do produto
+            </li>
+            <li class="mp-rule">Regras diferentes para CPF e CNPJ</li>
+            <li class="mp-rule">Taxa fixa por item em certas categorias</li>
+            <li class="mp-rule">Programa de frete subsidiado da plataforma</li>
+          </ul>
+        </div>
 
-  <div class="faq-list">
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        As taxas são realmente atualizadas? <span class="arrow">+</span>
+        <div class="mp-card ml">
+          <div class="mp-header">
+            <div class="mp-logo ml">ML</div>
+            <div>
+              <div class="mp-name">MERCADO LIVRE</div>
+              <div class="mp-badge">10–19% + custo fixo</div>
+            </div>
+          </div>
+          <ul class="mp-rules">
+            <li class="mp-rule">
+              Plano Clássico ou Premium com taxas distintas
+            </li>
+            <li class="mp-rule">Taxa fixa para produtos abaixo de R$79</li>
+            <li class="mp-rule">
+              Comissão varia por categoria e nível de reputação
+            </li>
+            <li class="mp-rule">
+              Frete Full: cálculo integrado ao preço final
+            </li>
+          </ul>
+        </div>
+
+        <div class="mp-card tiktok">
+          <div class="mp-header">
+            <div class="mp-logo tiktok">♪</div>
+            <div>
+              <div class="mp-name">TIKTOK SHOP</div>
+              <div class="mp-badge">6% · teto R$50/pedido</div>
+            </div>
+          </div>
+          <ul class="mp-rules">
+            <li class="mp-rule">Taxa base mais baixa do mercado: apenas 6%</li>
+            <li class="mp-rule">Teto máximo de R$50 por pedido</li>
+            <li class="mp-rule">Programa 0% por 60 dias para novos lojistas</li>
+            <li class="mp-rule">
+              Comissão de afiliados opcional inclusa no cálculo
+            </li>
+          </ul>
+        </div>
+
+        <div class="mp-card amazon">
+          <div class="mp-header">
+            <div class="mp-logo amazon">a</div>
+            <div>
+              <div class="mp-name">AMAZON</div>
+              <div class="mp-badge">10–15% por categoria</div>
+            </div>
+          </div>
+          <ul class="mp-rules">
+            <li class="mp-rule">
+              Plano Individual (R$2/item) ou Profissional (R$19/mês)
+            </li>
+            <li class="mp-rule">Comissão mínima de R$1 a R$2 por item</li>
+            <li class="mp-rule">
+              15 categorias com percentuais diferentes mapeadas
+            </li>
+            <li class="mp-rule">
+              Amazon Ads (ACOS) integrado ao cálculo de margem
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="faq-a">Sim. Monitoramos as tabelas de comissão de cada marketplace e atualizamos o sistema sempre que há mudança. Você não precisa ficar verificando nas páginas dos marketplaces.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        Funciona para quem vende como CPF e CNPJ? <span class="arrow">+</span>
-      </div>
-      <div class="faq-a">Sim! A Shopee, por exemplo, tem regras diferentes para CPF e CNPJ. O sistema pergunta seu tipo de conta e aplica as regras corretas automaticamente.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        Posso cancelar quando quiser? <span class="arrow">+</span>
-      </div>
-      <div class="faq-a">Sim, sem burocracia. Você cancela pelo próprio painel em menos de 1 minuto. Sem multas, sem carência. E ainda tem 7 dias de garantia para testar à vontade.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        Preciso instalar algum aplicativo? <span class="arrow">+</span>
-      </div>
-      <div class="faq-a">Não. O Precificação PRO é 100% online. Acesse pelo navegador do celular, tablet ou computador. Sem instalação, sem cadastros complicados.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        Funciona para dropshipping? <span class="arrow">+</span>
-      </div>
-      <div class="faq-a">Perfeitamente. Basta inserir o preço de custo do fornecedor + embalagem + frete e o sistema calcula o preço mínimo de venda para sua margem alvo em cada marketplace.</div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- CTA FINAL -->
-<section class="cta-final">
-  <h2>PARE DE CHUTAR.<br><span>COMECE A LUCRAR.</span></h2>
-  <p>Junte-se a quem já descobriu o poder de precificar com inteligência. Seu próximo produto começa aqui.</p>
-  <a href="#precos" class="btn-primary large">🚀 Quero acesso por R$ 27,90</a>
-  <br>
-  <div class="guarantee inline">
-    <span class="guarantee-icon">🛡️</span>
-    7 dias de garantia total · Acesso por 1 ano completo
-  </div>
-</section>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section">
+      <div class="testimonials-inner">
+        <div class="section-label">Resultados reais</div>
+        <h2 class="section-title">QUEM JÁ <span>USOU</span></h2>
+        <div class="test-grid">
+          <div class="test-card">
+            <div class="stars">★★★★★</div>
+            <p class="test-text">
+              "Eu vendia no Mercado Livre há 1 ano e nunca entendi por que não
+              lucrava. Com o Precificação PRO descobri que estava pagando 18% de
+              comissão + taxa fixa e nem sabia."
+            </p>
+            <div class="test-author">
+              <div class="test-avatar">MR</div>
+              <div>
+                <div class="test-name">Marcos R.</div>
+                <div class="test-role">Vendedor Mercado Livre · SP</div>
+              </div>
+            </div>
+          </div>
+          <div class="test-card">
+            <div class="stars">★★★★★</div>
+            <p class="test-text">
+              "Migrei do Shopee para TikTok Shop depois de comparar os dois
+              lados. Minha margem aumentou 8 pontos percentuais no mesmo
+              produto. Ferramenta indispensável."
+            </p>
+            <div class="test-author">
+              <div class="test-avatar">CL</div>
+              <div>
+                <div class="test-name">Carla L.</div>
+                <div class="test-role">Loja de moda · TikTok Shop · MG</div>
+              </div>
+            </div>
+          </div>
+          <div class="test-card">
+            <div class="stars">★★★★★</div>
+            <p class="test-text">
+              "Uso toda semana antes de listar qualquer produto novo. Em 3 meses
+              meu faturamento cresceu 40% porque parei de vender produto que me
+              dava prejuízo."
+            </p>
+            <div class="test-author">
+              <div class="test-avatar">FP</div>
+              <div>
+                <div class="test-name">Felipe P.</div>
+                <div class="test-role">Dropshipping · Shopee + Amazon · RS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">PRECIFICAÇÃO<span>PRO</span></div>
-  <p>Calcule. Venda. Lucre. · © 2026 Precificação PRO · Todos os direitos reservados</p>
-</footer>
+    <!-- PRICING -->
+    <section class="pricing-section" id="precos">
+      <div class="pricing-inner">
+        <div class="section-label center">Acesso completo</div>
+        <h2 class="section-title center">
+          UM PLANO.<br /><span>TUDO INCLUÍDO.</span>
+        </h2>
+        <p class="section-desc center">
+          Sem mensalidade, sem surpresa. Pague uma vez e use por 1 ano inteiro.
+        </p>
 
-<script src="js/main.js"></script>
-</body>
+        <div class="pricing-card-wrapper">
+          <div class="price-card featured">
+            <div class="price-badge">✦ ACESSO ANUAL COMPLETO</div>
+
+            <div class="price-header">
+              <div class="price-sublabel">Preço único por 1 ano</div>
+              <div class="price-val">
+                <span class="price-currency">R$</span>27<span
+                  class="price-cents"
+                  >,90</span
+                >
+              </div>
+              <div class="price-monthly">
+                = menos de <strong>R$ 2,33 por mês</strong>
+              </div>
+            </div>
+
+            <div class="price-divider"></div>
+
+            <ul class="price-features">
+              <li class="pf">
+                <span class="pf-check">✓</span>Todos os 4 marketplaces — Shopee,
+                ML, TikTok Shop e Amazon
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Cálculos ilimitados durante 1 ano
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Margem de lucro com slider
+                interativo
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Comparação multi-marketplace
+                simultânea
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Marketing, cupons e Amazon Ads
+                (ACOS)
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Impostos e outros custos no
+                cálculo
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Distribuição visual do preço de
+                venda
+              </li>
+              <li class="pf">
+                <span class="pf-check">✓</span>Taxas atualizadas de cada
+                marketplace
+              </li>
+            </ul>
+
+            <button class="price-cta solid">
+              🚀 Quero acesso por R$ 47,00
+            </button>
+            <p class="price-secure">
+              🔒 Pagamento seguro · Acesso imediato · 7 dias de garantia
+            </p>
+          </div>
+        </div>
+
+        <div class="guarantee">
+          <span class="guarantee-icon">🛡️</span>
+          <div>
+            <strong>Garantia de 7 dias.</strong> Não ficou satisfeito?
+            Devolvemos 100% do valor. Sem perguntas.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section reveal">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title">PERGUNTAS<br /><span>FREQUENTES</span></h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            As taxas são realmente atualizadas? <span class="arrow">+</span>
+          </div>
+          <div class="faq-a">
+            Sim. Monitoramos as tabelas de comissão de cada marketplace e
+            atualizamos o sistema sempre que há mudança. Você não precisa ficar
+            verificando nas páginas dos marketplaces.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Funciona para quem vende como CPF e CNPJ?
+            <span class="arrow">+</span>
+          </div>
+          <div class="faq-a">
+            Sim! A Shopee, por exemplo, tem regras diferentes para CPF e CNPJ. O
+            sistema pergunta seu tipo de conta e aplica as regras corretas
+            automaticamente.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Posso cancelar quando quiser? <span class="arrow">+</span>
+          </div>
+          <div class="faq-a">
+            Sim, sem burocracia. Você cancela pelo próprio painel em menos de 1
+            minuto. Sem multas, sem carência. E ainda tem 7 dias de garantia
+            para testar à vontade.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Preciso instalar algum aplicativo? <span class="arrow">+</span>
+          </div>
+          <div class="faq-a">
+            Não. O Precificação PRO é 100% online. Acesse pelo navegador do
+            celular, tablet ou computador. Sem instalação, sem cadastros
+            complicados.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Funciona para dropshipping? <span class="arrow">+</span>
+          </div>
+          <div class="faq-a">
+            Perfeitamente. Basta inserir o preço de custo do fornecedor +
+            embalagem + frete e o sistema calcula o preço mínimo de venda para
+            sua margem alvo em cada marketplace.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final">
+      <h2>PARE DE CHUTAR.<br /><span>COMECE A LUCRAR.</span></h2>
+      <p>
+        Junte-se a quem já descobriu o poder de precificar com inteligência. Seu
+        próximo produto começa aqui.
+      </p>
+      <a href="#precos" class="btn-primary large">🚀 Quero acesso por R$ 47</a>
+      <br />
+      <div class="guarantee inline">
+        <span class="guarantee-icon">🛡️</span>
+        7 dias de garantia total · Acesso por 1 ano completo
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo">PRECIFICAÇÃO<span>PRO</span></div>
+      <p>
+        Calcule. Venda. Lucre. · © 2026 Precificação PRO · Todos os direitos
+        reservados
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
